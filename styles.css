@@ -6,41 +6,76 @@
 }
 
 header {
-    background-color: #333;
-    color: white;
+    box-shadow: #e7af6e 0 10px 10px;
+    font-family: 'Cookie', sans-serif;
+    background-color: #e7af6e;
+    color: #31231f;
+    position: static;
+    width: 100%;
     padding: 1rem;
     text-align: center;
 }
 
 nav ul {
+
     list-style-type: none;
     padding: 0;
 }
 
 nav ul li {
+
     display: inline;
     margin: 0 1rem;
 }
 
+h2{
+    font-family: 'Cookie', sans-serif;
+    margin-bottom: 2rem;
+}
+
 nav ul li a {
-    color: white;
+
+    color: #31231f;
     text-decoration: none;
 }
 
 section {
-    padding: 2rem;
+
+    padding: 3rem;
     text-align: center;
 }
 
+
+
 footer {
-    background-color: #333;
+    background-color: #31231f;
     color: white;
     text-align: center;
     padding: 1rem;
-    position: fixed;
+    position: static;
     width: 100%;
     bottom: 0;
 }
+
+/*.about {*/
+
+/*    background: antiquewhite;*/
+/*    padding: 5rem;*/
+/*    margin: -4rem;*/
+/*}*/
+
+.home button {
+    background-color: #bd7948;
+    color: white;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.home button:hover {
+    background-color: #e7af6e;
+}
+
 .catalog {
     display: flex;
     flex-wrap: wrap;
@@ -51,13 +86,20 @@ footer {
 .product {
     background-color: white;
     border: 1px solid #ddd;
+    box-shadow: rgb(231, 175, 110) 0 5px 20px;
     border-radius: 8px;
     padding: 1rem;
     text-align: center;
     width: 200px;
 }
 
+
+
+.product img:hover {
+    transform: scale(1.05);
+}
 .product img {
+    transition: transform 0.3s ease;
     max-width: 100%;
     border-radius: 8px;
 }
@@ -71,14 +113,27 @@ footer {
 }
 
 .product button {
-    background-color: #333;
+    background-color: #bd7948;
     color: white;
     border: none;
+    position: relative;
+    margin-bottom:  0.2rem;
     padding: 0.5rem 1rem;
     border-radius: 4px;
     cursor: pointer;
 }
 
 .product button:hover {
-    background-color: #555;
+    background-color: #e7af6e;
+}
+
+.cookie3 {
+    position: absolute;
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+@font-face {
+    font-family: 'Cookie'; /*a name to be used later*/
+    src: url('fonts/love-days-love.regular.ttf') format('truetype');
 }
