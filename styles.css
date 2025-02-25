@@ -30,7 +30,7 @@ nav ul li {
 
 h2{
     font-family: 'Cookie', sans-serif;
-    margin-bottom: 2rem;
+    margin-bott: 4rem;
 }
 
 nav ul li a {
@@ -127,10 +127,21 @@ footer {
     background-color: #e7af6e;
 }
 
-.cookie3 {
+.cookie3{
     position: absolute;
-    margin-left: 3rem;
+    margin-left: 15rem;
     margin-top: 1rem;
+}
+.cookie2 {
+    position: absolute;
+    margin-left: -20rem;
+    margin-top: 10rem;
+}
+.cookie4 {
+    rotate: 90deg;
+    position: absolute;
+    margin-left: 9rem;
+    margin-top: 25rem;
 }
 
 @font-face {
